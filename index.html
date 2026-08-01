@@ -1,0 +1,211 @@
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucas Gretta</title>
+
+  <style>
+    body {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
+    color: #222;
+    background: #fff;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .headshot {
+    width: 120px;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc;
+  }
+
+  @media (max-width: 600px) {
+    .header-top {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+
+    .headshot {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  nav {
+  margin-top: 15px;
+  }
+
+  nav a {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-top">
+      <div>
+        <h1>Lucas Gretta</h1>
+        <p class="subtitle">
+          PhD Student, UC Berkeley EECS
+        </p>
+      </div>
+
+      <img
+        class="headshot"
+        src="output.jpg"
+        alt="Headshot of Lucas Gretta"
+      >
+    </div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+<main>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+  I am a PhD student in the EECS Department at UC Berkeley, where I am fortunate to be advised by
+  <a href="https://people.eecs.berkeley.edu/~sinclair/">Alistair Sinclair</a>.
+  Before coming to UC Berkeley, I completed my undergraduate degree at UT Austin.
+  I am grateful for the advice and mentorship of
+  <a href="https://www.cs.utexas.edu/~ecprice/">Eric Price</a>.
+</p>
+
+  <p>
+    My research broadly studies the power and limitations of efficient computation, especially in
+    randomized algorithms, quantum computation, and modern machine learning systems.
+  </p>
+
+  <p>
+    I am interested in Markov chains and mixing times, with a focus on understanding how structural
+    properties of stochastic processes lead to efficient sampling algorithms. I also study low-depth quantum
+    circuits and near-term quantum computation, including the computational power of shallow quantum
+    circuit models. More recently, I have been interested in efficiency questions for large language
+    models and related systems.
+  </p>
+</section>
+
+<section id="publications">
+  <h2>Publications & Preprints</h2>
+
+  <div class="paper">
+    <div class="paper-title">
+      Super-Constant Weight Dicke States in Constant Depth Without Fanout
+    </div>
+    <div class="paper-authors">
+      <strong>Lucas Gretta</strong>, Meghal Gupta, Malvika Raj Joshi
+    </div>
+    <div>
+      arXiv preprint, 2026.
+    </div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2604.15298">arXiv</a>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-title">
+      Parity &notin; QAC<sup>0</sup> iff QAC<sup>0</sup> is Fourier-Concentrated
+    </div>
+    <div class="paper-authors">
+      <strong>Lucas Gretta</strong>, Meghal Gupta, Malvika Raj Joshi
+    </div>
+    <div>
+      FOCS 2026. 
+    </div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2604.02793">arXiv</a>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-title">
+     JASPER: Joint Autoscaling and Shard Placement via Efficient Reinforcement learning  
+    </div>
+    <div class="paper-authors">
+      <strong>Lucas Gretta</strong>, Yonatan Naamad, Nina Mishra, Huibin Shen, Paul White
+    </div>
+    <div>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-title">
+      More Efficient Approximate <em>k</em>-wise Independent Permutations from
+      Random Reversible Circuits via log-Sobolev Inequalities
+    </div>
+    <div class="paper-authors">
+      <strong>Lucas Gretta</strong>, William He, Angelos Pelecanos
+    </div>
+    <div>
+      SODA 2025.
+    </div>
+    <div class="paper-links">
+      <a href="https://arxiv.org/abs/2406.08499">arXiv</a>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-title">
+      Sharp Noisy Binary Search with Monotonic Probabilities
+    </div>
+    <div class="paper-authors">
+      <strong>Lucas Gretta</strong>, Eric Price
+    </div>
+    <div>
+      ICALP 2024.
+    </div>
+    <div class="paper-links">
+      <a href="https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2024.75">paper</a>
+      <a href="https://arxiv.org/abs/2311.00840">arXiv</a>
+    </div>
+  </div>
+
+  <div class="paper">
+    <div class="paper-title">
+      An Improved Online Reduction from PAC Learning to Mistake-Bounded Learning
+    </div>
+    <div class="paper-authors">
+      <strong>Lucas Gretta</strong>, Eric Price
+    </div>
+    <div>
+      SOSA 2023.
+    </div>
+    <div class="paper-links">
+      <a href="https://epubs.siam.org/doi/10.1137/1.9781611977585.ch34">paper</a>
+    </div>
+  </div>
+</section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Email: firstname _ lastname at berkeley dot edu</a>
+    </p>
+  </section>
+</main>
+
+</body>
+</html>
